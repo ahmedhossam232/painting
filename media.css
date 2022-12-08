@@ -1,0 +1,22 @@
+@media (max-width:880px) {
+    .tools {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        z-index: 1000;
+    }
+
+    .pepar {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        cursor: cell;
+        overflow: hidden;
+    }
+}
